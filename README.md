@@ -3,4 +3,4 @@
 ## ReactJS, 
 ## Typescript, 
 ## React-router, Outlet, Layout
-## Sass, Flexbox, Grid
+## Sass, Flexbox, Grid, Recharts, MUI DataGrid
