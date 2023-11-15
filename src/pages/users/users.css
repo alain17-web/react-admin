@@ -5,11 +5,11 @@
   margin-bottom: 20px;
 }
 .users .info button {
-  padding: 5px;
-  border-radius: 9px;
+  padding: 1px;
+  border-radius: 3px;
   cursor: pointer;
 }
 .users .info button span {
   font-weight: bold;
-  font-size: 20px;
+  font-size: 18px;
 }/*# sourceMappingURL=users.css.map */
