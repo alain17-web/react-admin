@@ -4,3 +4,4 @@
 ## Typescript, 
 ## React-router, Outlet, Layout
 ## Sass, Flexbox, Grid, Recharts, MUI DataGrid
+## Tanstack Query for API call
