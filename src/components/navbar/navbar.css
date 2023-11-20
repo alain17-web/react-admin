@@ -16,6 +16,11 @@
   align-items: center;
   gap: 20px;
 }
+@media screen and (max-width: 480px) {
+  .navbar .icons .icon {
+    display: none;
+  }
+}
 .navbar .icons .notification {
   position: relative;
 }

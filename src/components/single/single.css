@@ -1,6 +1,12 @@
 .single {
   display: flex;
 }
+@media screen and (max-width: 1200px) {
+  .single {
+    flex-direction: column;
+    gap: 50px;
+  }
+}
 .single .view {
   flex: 1;
 }
@@ -36,10 +42,20 @@
   border: 0.5px solid gray;
   margin: 20px 0px;
 }
+@media screen and (max-width: 768px) {
+  .single .view hr {
+    display: none;
+  }
+}
 .single .view .chart {
   margin-top: 50px;
   width: 80%;
   height: 400px;
+}
+@media screen and (max-width: 768px) {
+  .single .view .chart {
+    display: none;
+  }
 }
 .single .activities {
   flex: 1;
@@ -69,6 +85,11 @@
   min-width: 480px;
   padding: 15px;
   background-color: rgba(244, 91, 104, 0.062745098);
+}
+@media screen and (max-width: 768px) {
+  .single .activities ul li div {
+    min-width: 250px;
+  }
 }
 .single .activities ul li div p {
   margin-bottom: 5px;

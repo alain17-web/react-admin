@@ -1,6 +1,11 @@
 .topBox h1 {
   margin-bottom: 20px;
 }
+@media screen and (max-width: 1400px) {
+  .topBox h1 {
+    font-size: 24px;
+  }
+}
 .topBox .list .listItem {
   display: flex;
   align-items: center;
@@ -18,6 +23,16 @@
   -o-object-fit: cover;
      object-fit: cover;
 }
+@media screen and (max-width: 1400px) {
+  .topBox .list .listItem .user img {
+    display: none;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .topBox .list .listItem .user img {
+    display: block;
+  }
+}
 .topBox .list .listItem .user .userText {
   display: flex;
   flex-direction: column;
@@ -29,6 +44,16 @@
 }
 .topBox .list .listItem .user .userText .email {
   font-size: 12px;
+}
+@media screen and (max-width: 1400px) {
+  .topBox .list .listItem .user .userText .email {
+    display: none;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .topBox .list .listItem .user .userText .email {
+    display: block;
+  }
 }
 .topBox .list .listItem .user .amount {
   font-weight: 500;
